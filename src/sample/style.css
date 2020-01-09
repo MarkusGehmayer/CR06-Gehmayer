@@ -1,0 +1,66 @@
+.root {
+     -fx-background-image: url("/Resources/background.png");
+     -fx-font-family: "Arial Narrow";
+     -fx-padding: 10;
+     -fx-border-style: solid inside;
+     -fx-border-width: 2;
+     -fx-border-insets: 5;
+     -fx-border-radius: 5;
+     -fx-border-color: white;
+     -fx-effect: dropshadow( three-pass-box , rgba(1,0,3,0.2) , 5, 0.0 , 0 , 3 );
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.list-view {
+    -fx-border-style: solid inside;
+    -fx-font-weight: bold;
+    -fx-border-width: 1;
+    -fx-border-insets: 5;
+    -fx-border-radius: 7;
+    -fx-padding: 2px;
+    -fx-border-color: white;
+    -fx-background-color: transparent, transparent;
+    -fx-background-insets: 0, 4;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #141414;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #141414;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell: hover {
+    -fx-background-color: #141414;
+    -fx-border-color: #39ff14;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-border-style: solid inside;
+    -fx-border-width: 1.3;
+    -fx-border-insets: 5;
+    -fx-border-radius: 7;
+    -fx-padding: 3px;
+}
+
+.text-field {
+    -fx-text-inner-color: #39ff14;
+    -fx-background-color: #141414;
+    -fx-border-style: solid inside;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+}
+
+.text-field: hover {
+    -fx-border-color: #39ff14;
+    -fx-text-inner-color: white;
+    -fx-border-width: 1.3;
+}

@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-8.0.18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JAVA/mysql/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/adaptive" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/alwaysencrypted" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/azureactivedirectoryauthentication" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/connections" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/constrained" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/dataclassification" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/datatypes" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/resultsets" />
+      <root url="file://$PROJECT_DIR$/../JAVA/mysql/sqljdbc_7.4/deu/samples/sparse" />
+    </SOURCES>
+  </library>
+</component>
